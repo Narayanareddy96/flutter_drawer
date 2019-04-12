@@ -1,7 +1,9 @@
-<<<<<<< HEAD
+
 # drawer_example
 
-A new Flutter project.
+A new Flutter project. I have implemented the Drawer feature.
+it is a good example to falow.
+
 
 ## Getting Started
 
@@ -17,4 +19,3 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 =======
 # flutter_drawer
->>>>>>> 8b999494c2e2f48bf8d1830e5a7054c0398dcfb8
