@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # drawer_example
 
 A new Flutter project.
@@ -14,3 +15,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our 
 [online documentation](https://flutter.io/docs), which offers tutorials, 
 samples, guidance on mobile development, and a full API reference.
+=======
+# flutter_drawer
+>>>>>>> 8b999494c2e2f48bf8d1830e5a7054c0398dcfb8
