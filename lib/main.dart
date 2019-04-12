@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
       home: new _HomePage(),
       routes: <String,WidgetBuilder>{
         "home":(BuildContext context)=> new Home("Home"),
+        "Orders":(BuildContext context)=> new Home("Orders"),
       },
     );
   }
@@ -53,7 +54,10 @@ class __HomePageState extends State<_HomePage> {
               
             ),
             new ListTile(
-              onTap: ()=>{},
+              onTap: (){
+              Navigator.of(context).pop();
+              Navigator.of(context).pushNamed("Orders");
+              },
               title: new Text("Orders"),
               trailing: Icon(Icons.record_voice_over),
             ),
@@ -71,7 +75,7 @@ class __HomePageState extends State<_HomePage> {
       ),
       body: Container(
         child: Center(
-          child: new Text("Workign irn"),
+          child: new Text("Main page"),
         )
       ),
     );
